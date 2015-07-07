@@ -7,8 +7,14 @@ Command to convert a string to a Laravel hashed password to use directly on the 
 ### Step 1: Install Through Composer
 
 ```
-composer require arielcr/laravel5-hasher
+{
+    "require": {
+        "arielcr/laravel5-hasher": "dev-master"
+    }
+}
 ```
+
+Then run  `composer update`
 
 ### Step 2: Add the Service Provider
 
