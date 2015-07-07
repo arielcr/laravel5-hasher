@@ -12,7 +12,7 @@ composer require arielcr/laravel5-hasher --dev
 
 ### Step 2: Add the Service Provider
 
-Add the service provider to `providers`:
+Add the service provider to `config/app.php`:
 
 ```php
 'providers' => [
@@ -26,7 +26,7 @@ Add the service provider to `providers`:
 
 You're all set. Run `php artisan` from the console, and you'll see the new command.
 
-## Examples
+## Example
 
 ```
 php artisan hash password=123456
