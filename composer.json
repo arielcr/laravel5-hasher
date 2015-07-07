@@ -3,10 +3,13 @@
   "description": "Command to convert a string to a Laravel hashed password to use directly on the database.",
   "keywords": ["laravel", "hash"],
   "license": "MIT",
+  "version": "0.1",
   "authors": [
     {
       "name": "Ariel Orozco",
-      "email": "bassplayer85@gmail.com"
+      "email": "bassplayer85@gmail.com",
+      "homepage": "http://arielorozco.com",
+      "role": "Developer"
     }
   ],
   "require": {
